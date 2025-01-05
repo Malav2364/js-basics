@@ -1,0 +1,46 @@
+# JavaScript Basics: Data Types and Operators
+
+## 1. Data Types
+JavaScript has **7 primitive types** and 1 complex type.
+
+| **Type**       | **Description**                                                                                  | **Example**                |
+|----------------|--------------------------------------------------------------------------------------------------|----------------------------|
+| `string`       | Represents text. Enclosed in single (`'`) or double (`"`) quotes, or backticks (`` ` ``).        | `"Hello"`, `'World'`       |
+| `number`       | Represents integers and decimals.                                                               | `42`, `3.14`               |
+| `boolean`      | Represents `true` or `false`.                                                                   | `true`, `false`            |
+| `null`         | Represents the intentional absence of a value.                                                  | `null`                     |
+| `undefined`    | Represents a variable that has been declared but not assigned a value.                          | `let x; console.log(x);`   |
+| `symbol`       | Represents a unique identifier. Used in advanced cases.                                         | `Symbol('id')`             |
+| `bigint`       | Represents very large integers.                                                                 | `1234567890123456789n`     |
+| **Object**     | Non-primitive type for storing collections of data and complex entities (arrays, objects, etc.). | `{ key: "value" }`, `[1]`  |
+
+---
+
+## 2. Type Conversion
+JavaScript automatically converts between types in some cases (**type coercion**). You can also manually convert types (**type casting**).
+
+---
+
+## 3. Operators
+
+### 3.1 Arithmetic Operators
+Used for mathematical calculations:
+- `+` (Addition), `-` (Subtraction), `*` (Multiplication), `/` (Division), `%` (Modulo), `**` (Exponentiation).
+
+### 3.2 Comparison Operators
+Used to compare values and return a boolean (`true` or `false`):
+- `==` (Equal), `===` (Strict Equal), `!=` (Not Equal), `<`, `>`, `<=`, `>=`.
+
+### 3.3 Logical Operators
+Used to combine boolean expressions:
+- `&&` (AND), `||` (OR), `!` (NOT).
+
+### 3.4 Assignment Operators
+Used to assign values to variables:
+- `=` (Assign), `+=` (Add and Assign), `-=` (Subtract and Assign).
+
+### 3.5 Special Operators
+- **Ternary Operator** (shorthand for `if-else`).
+- **typeof** (checks the type of a value).
+
+
