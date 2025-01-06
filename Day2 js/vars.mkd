@@ -1,0 +1,72 @@
+# Day 2: Variables and Scoping in JavaScript
+
+Today, we explored the fundamentals of variable declarations and their behavior in different scopes. Here's a summary of what we learned:
+
+---
+
+## **1. Variable Declarations**
+
+### **`var`**
+- **Scope**: Function-scoped.
+- **Redeclaration**: Allowed.
+- **Hoisting**: Hoisted and initialized as `undefined`.
+- **Usage**: Avoid in modern code unless necessary for legacy purposes.
+
+### **`let`**
+- **Scope**: Block-scoped.
+- **Redeclaration**: Not allowed in the same scope.
+- **Hoisting**: Hoisted but in the temporal dead zone (not initialized).
+- **Usage**: Use for variables that might change.
+
+### **`const`**
+- **Scope**: Block-scoped.
+- **Redeclaration**: Not allowed.
+- **Reassignment**: Not allowed.
+- **Initialization**: Must be initialized at the time of declaration.
+- **Usage**: Use for constants or values that do not change.
+
+---
+
+## **2. Scoping Rules**
+
+### **Global Scope**
+- Variables declared outside any function or block.
+- Accessible throughout the script.
+
+### **Function Scope**
+- Applies to variables declared with `var` inside a function.
+- Not accessible outside the function.
+
+### **Block Scope**
+- Applies to variables declared with `let` and `const` inside `{}`.
+- Not accessible outside the block.
+
+---
+
+## **3. Hoisting**
+- **`var`**: Hoisted and initialized as `undefined`.
+- **`let` and `const`**: Hoisted but remain in the temporal dead zone until declared.
+
+---
+
+## **4. Best Practices**
+- Prefer `const` for constants and values that don’t change.
+- Use `let` for variables that might change.
+- Avoid `var` unless working with older codebases.
+
+---
+
+## **5. Tasks Completed**
+
+1. **Variable Behavior:**
+   - Tested updating and redeclaring `var`, `let`, and `const`.
+
+2. **Scoping Rules:**
+   - Explored behavior of variables in global, function, and block scopes.
+
+3. **Hoisting:**
+   - Observed how `var`, `let`, and `const` behave during hoisting.
+
+---
+
+This concludes **Day 2**. We are ready to move to **Day 3: Control Flow and Loops**!
