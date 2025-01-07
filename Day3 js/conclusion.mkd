@@ -1,0 +1,124 @@
+# Day 3: Control Flow and Loops in JavaScript
+
+Today, we explored control flow and loops in JavaScript. Here's a summary of what we learned and practiced:
+
+---
+
+## **1. Conditional Statements**
+
+### **1.1 Check if a Number is Even or Odd**
+```javascript
+function checkEvenOdd(number) {
+  if (number % 2 === 0) {
+    console.log(`${number} is even.`);
+  } else {
+    console.log(`${number} is odd.`);
+  }
+}
+
+// Test the function
+checkEvenOdd(7); // Output: 7 is odd.
+checkEvenOdd(10); // Output: 10 is even.
+```
+
+### **1.2 Print Days of the Week using `switch`**
+```javascript
+function getDayName(dayNumber) {
+  switch (dayNumber) {
+    case 1:
+      console.log("Monday");
+      break;
+    case 2:
+      console.log("Tuesday");
+      break;
+    case 3:
+      console.log("Wednesday");
+      break;
+    case 4:
+      console.log("Thursday");
+      break;
+    case 5:
+      console.log("Friday");
+      break;
+    case 6:
+      console.log("Saturday");
+      break;
+    case 7:
+      console.log("Sunday");
+      break;
+    default:
+      console.log("Invalid day number");
+  }
+}
+
+// Test the function
+getDayName(3); // Output: Wednesday
+getDayName(8); // Output: Invalid day number
+```
+
+---
+
+## **2. Loops**
+
+### **2.1 Print Numbers from 1 to 10**
+```javascript
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+```
+
+### **2.2 Print All Even Numbers Between 1 and 20**
+```javascript
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+```
+
+### **2.3 Iterate Over an Array of Colors**
+```javascript
+const colors = ["Red", "Blue", "Green", "Yellow"];
+for (const color of colors) {
+  console.log(color);
+}
+```
+
+---
+
+## **3. Loop Control**
+
+### **3.1 Use `break` to Exit a Loop**
+```javascript
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    console.log("Breaking the loop at:", i);
+    break;
+  }
+  console.log(i);
+}
+```
+
+### **3.2 Use `continue` to Skip an Iteration**
+```javascript
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 !== 0) continue; // Skip odd numbers
+  console.log(i); // Print only even numbers
+}
+```
+
+---
+
+## **Tasks Completed**
+
+1. Checked if a number is even or odd using `if-else`.
+2. Printed the days of the week using a `switch` statement.
+3. Printed numbers from 1 to 10.
+4. Printed all even numbers between 1 and 20.
+5. Iterated over an array of colors and logged them.
+6. Used `break` to exit a loop early.
+7. Used `continue` to skip specific iterations.
+
+---
+
+This concludes **Day 3**. Next up: **Functions and Scope** on Day 4!
