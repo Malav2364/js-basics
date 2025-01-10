@@ -1,0 +1,120 @@
+# Day 5: Arrays and Iteration
+
+## Topics Covered Today
+
+### **1. Arrays in JavaScript**
+
+#### **1.1 What are Arrays?**
+- Arrays are data structures used to store multiple values in a single variable.
+- Example:
+  ```javascript
+  const fruits = ["apple", "banana", "cherry"];
+  ```
+
+#### **1.2 Accessing and Modifying Arrays**
+- Access elements using index:
+  ```javascript
+  console.log(fruits[0]); // "apple"
+  ```
+- Modify elements:
+  ```javascript
+  fruits[1] = "blueberry";
+  console.log(fruits); // ["apple", "blueberry", "cherry"]
+  ```
+
+---
+
+### **2. Array Methods**
+
+#### **2.1 Basic Methods**
+| Method     | Description                        | Example                                 |
+|------------|------------------------------------|-----------------------------------------|
+| `push()`   | Adds an element to the end         | `fruits.push("date");`                |
+| `pop()`    | Removes the last element           | `fruits.pop();`                         |
+| `shift()`  | Removes the first element          | `fruits.shift();`                       |
+| `unshift()`| Adds an element to the beginning   | `fruits.unshift("apricot");`          |
+
+#### **2.2 Advanced Methods**
+- **`map()`**: Transforms each element in the array.
+  ```javascript
+  const numbers = [1, 2, 3, 4];
+  const squares = numbers.map((num) => num * num);
+  console.log(squares); // [1, 4, 9, 16]
+  ```
+
+- **`filter()`**: Creates a new array with elements that meet a condition.
+  ```javascript
+  const evens = numbers.filter((num) => num % 2 === 0);
+  console.log(evens); // [2, 4]
+  ```
+
+- **`reduce()`**: Reduces the array to a single value.
+  ```javascript
+  const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+  console.log(sum); // 10
+  ```
+
+---
+
+### **3. Iterating Over Arrays**
+
+#### **3.1 Using a For Loop**
+- Example:
+  ```javascript
+  const colors = ["red", "blue", "green"];
+  for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+  }
+  ```
+
+#### **3.2 Using `forEach`**
+- Example:
+  ```javascript
+  colors.forEach((color) => {
+    console.log(color);
+  });
+  ```
+
+---
+
+### **4. Practice Problems**
+
+#### **4.1 Largest Number in an Array**
+Function to find the largest number in an array:
+```javascript
+function findLargest(arr) {
+  if (arr.length === 0) {
+    return "Array is empty!";
+  }
+
+  let largest = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      largest = arr[i];
+    }
+  }
+  return largest;
+}
+
+// Test the function
+const numbers = [45, 72, 13, 89, 34];
+console.log(`The largest number is: ${findLargest(numbers)}`); // Output: 89
+```
+
+---
+
+## Key Takeaways
+
+1. **Arrays:**
+   - Learn to create, access, and modify arrays.
+   - Practice using basic and advanced array methods.
+
+2. **Iteration:**
+   - Use loops (`for`, `forEach`) to traverse arrays.
+
+3. **Problem-Solving:**
+   - Implemented a function to find the largest number in an array.
+
+---
+
+See you tomorrow for **Day 6: Objects and JSON**! 🚀
