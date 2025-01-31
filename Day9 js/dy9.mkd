@@ -1,0 +1,35 @@
+# 📌 Day 9: Mastering `async` and `await` in JavaScript  
+
+## 1️⃣ Understanding `async` Functions  
+- The `async` keyword makes a function return a **Promise** automatically.  
+
+## 2️⃣ Using `await` for Handling Promises  
+- `await` pauses execution until a Promise **resolves**.  
+
+## 3️⃣ Handling Errors with `try...catch`  
+- Prevents crashes and ensures smooth execution.  
+
+## 4️⃣ Using `await` Inside Loops  
+- Executes requests **sequentially** inside a loop.  
+
+## 5️⃣ Running Requests in Parallel with `Promise.all()`  
+- Best for **faster execution** when tasks are independent.  
+
+## 6️⃣ `async/await` vs. Promises (`.then()`)
+| Feature | `async/await` | `.then()` |
+|---------|--------------|-----------|
+| Readability | Easier to read | More complex |
+| Error Handling | Uses `try...catch` | Uses `.catch()` |
+| Execution | Sequential (unless `Promise.all()` is used) | Works well with `.then()` chaining |
+
+---
+
+## ✅ Day 9 Tasks
+✔ Implemented `async` and `await` functions.  
+✔ Handled errors using `try...catch`.  
+✔ Used `await` inside loops for sequential execution.  
+✔ Ran multiple API calls **in parallel** with `Promise.all()`.  
+
+---
+
+🔥 **Great work today!** Let’s continue tomorrow with **Day 10**! 🚀
