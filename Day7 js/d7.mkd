@@ -1,0 +1,30 @@
+# Day 7: Functions in JavaScript
+
+## 1️⃣ What are Functions?
+A function is a reusable block of code designed to perform a specific task.
+
+## 2️⃣ Function Declaration & Invocation
+A function is declared using the `function` keyword and executed when called.
+
+## 3️⃣ Function Parameters & Arguments
+Functions can take parameters (inputs) and return a value.
+
+## 4️⃣ Arrow Functions (ES6)
+A shorter syntax for defining functions using `=>`.
+
+## 5️⃣ Callback Functions
+A function that is passed as an argument to another function.
+
+## 6️⃣ Immediately Invoked Function Expressions (IIFE)
+A function that runs immediately when defined.
+
+## 7️⃣ Higher-Order Functions
+Functions that take another function as an argument or return a function.
+
+## 🔥 Tasks for Today:
+- Write a function `sayHello` that prints "Hello, World!".
+- Write a function `multiply` that takes two numbers and returns their product.
+- Convert `multiply` to an arrow function.
+- Write a function `calculate` that takes two numbers and a callback function.
+- Create an IIFE that logs "Hello from IIFE".
+- Write a function `mathOperation` that takes an operation type and returns the corresponding function.

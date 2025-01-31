@@ -1,0 +1,37 @@
+# Day 8: JavaScript Arrays
+
+## 1️⃣ What We Learned Today
+
+### **1. Understanding Arrays**
+- Arrays store multiple values in a single variable.
+- Example: `let fruits = ["Apple", "Banana", "Mango"];`
+
+### **2. Accessing & Modifying Arrays**
+- Access elements: `array[index]`
+- Modify elements: `array[index] = newValue;`
+- Add new elements: `.push(value)`, `.unshift(value)`
+- Remove elements: `.pop()`, `.shift()`
+
+### **3. Array Methods**
+- `.splice(start, deleteCount, item1, item2, …)` – Add/remove elements.
+- `.slice(start, end)` – Extracts part of an array.
+- `.indexOf(value)` – Finds the index of a value.
+
+### **4. Looping Through Arrays**
+- Using `for` loop or `.forEach()` to iterate over elements.
+
+### **5. Higher-Order Functions**
+- `.map()` – Transforms each element in an array.
+- `.filter()` – Returns elements that meet a condition.
+- `.reduce()` – Accumulates values into a single result.
+
+## **2️⃣ Tasks Completed**
+✅ Created and modified an array.
+✅ Used array methods like `.push()`, `.pop()`, and `.splice()`.
+✅ Looped through an array.
+✅ Used `.filter()` to get specific elements.
+✅ Used `.reduce()` to calculate values.
+
+---
+
+🔥 **Day 8 Complete!** Ready for more learning tomorrow! 🚀
